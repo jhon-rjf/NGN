@@ -6,7 +6,6 @@ import java.io.PrintWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.HashMap;
-//수신부와 송신부 나누기
 
 public class Server {
     
