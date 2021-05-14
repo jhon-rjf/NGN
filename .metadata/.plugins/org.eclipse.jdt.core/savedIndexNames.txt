@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\Á¤À±°É\Desktop\javaprojects\TCP\.metadata\.plugins\org.eclipse.jdt.core
+3831324630.index
+3703813081.index
+847697291.index
