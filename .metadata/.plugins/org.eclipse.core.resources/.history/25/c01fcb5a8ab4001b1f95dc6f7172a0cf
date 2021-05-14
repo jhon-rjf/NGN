@@ -14,7 +14,7 @@ public class Client {
         Socket sck = null;
         BufferedReader br = null;
         PrintWriter pw = null;
-       
+        boolean endFlag = false;
         String id = null;
         String code = null;
         try {
@@ -44,7 +44,7 @@ public class Client {
                 if(line.equals("quit"))
                 {
                     System.out.println("시스템을 종료합니다.");
-                   
+                    endFlag = true;
                     break;
                 }
             }

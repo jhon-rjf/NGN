@@ -144,7 +144,7 @@ class ChatThread extends Thread{
                 pw = (PrintWriter) hash.get(msg.split("/")[0].replace("a", "p"));
                 pw.println(msg.split("/")[1]);
                 pw.flush();
-            }else if(msg.split("/")[0].endsWith("p"))//메시지 보낸 주체가 p인 경우
+            }else if(msg.split("/")[0].endsWith("p"))//메시지 보낸 주체가 pc인 경우
             {
                 pw = (PrintWriter) hash.get(msg.split("/")[0].replace("p", "a"));
                 pw.println(msg.split("/")[1]);

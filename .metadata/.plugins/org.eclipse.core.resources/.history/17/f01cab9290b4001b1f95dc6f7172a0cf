@@ -17,7 +17,7 @@ public class Client {
        
         String id = null;
         String code = null;
-        try {
+        try {git
             //서버의 소캣번호 입력
             sck = new Socket("192.168.0.9",1525);
             pw = new PrintWriter(new OutputStreamWriter(sck.getOutputStream()));
